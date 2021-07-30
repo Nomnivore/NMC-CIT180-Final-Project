@@ -1,0 +1,60 @@
+*, h1, h2, h3, footer p {
+  background-color: white;
+  color: black;
+  text-align: left;
+  text-shadow: none;
+  box-shadow: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12pt;
+  letter-spacing: unset;
+}
+
+.content p a, .content p a:link, .content p a:visited, footer p a:link, footer p a:visited {
+  color: black;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+footer p {
+  font-weight: normal;
+}
+
+aside, nav, .icon-bar {
+  display: none;
+}
+
+i {
+  display: none;
+}
+
+h2, h3 {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+  margin: 0;
+  color: black;
+  font-size: 12pt;
+  font-weight: normal;
+  padding: 0;
+}
+
+article {
+  grid-template-areas:
+    "t t t"
+    "c c c"
+    "f f f";
+  width: 100%;
+  font-size: 12pt;
+}
+
+script {
+  display: none;
+}
